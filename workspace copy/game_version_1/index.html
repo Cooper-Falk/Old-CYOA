@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Choose Your Adventure</title>
+        <style type="text/css">
+            body {
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            player-choice {
+                display: flex;
+                flex-flow: column;
+                align-items: stretch;
+                justify-content: stretch;
+            }
+            button {
+                cursor: pointer;
+                padding: 20px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>A School Day</h1>
+        <p>
+            You Arrive at your first class, you just remembered you forgot to do
+            the homework.
+        </p>
+        
+        <player-choice>
+            <button player-option="a">Write "Homework" in big letters on a piece of white paper and turn it in.</button>
+            <button player-option="b">Stay quiet, if you don't mention it, maybe your teacher won't ask about it.</button>
+            <button player-option="c">You notice the homework hanging out of one of your friends bag, swipe it.</button>
+        </player-choice>
+    </body>
+    
+    <script type="text/javascript" src="mechanics.js"></script>
+</html>
